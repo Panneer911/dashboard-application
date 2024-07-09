@@ -1,0 +1,120 @@
+*
+body {
+    display: flex;
+    border: 1px solid #ddd;
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.sidebar  i {
+    margin-right: 10px;
+    color: aqua;
+}
+.sidebar a i {
+    margin-right: 10px;
+    color: rgb(242, 250, 250);
+}
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+
+}
+
+.main-content i{
+    font-size:115%;
+}
+.skills-section .course-card {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.course-section .course-card {
+    display: flex;
+    flex-direction: column;
+   text-align: left;
+         padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 10PX;
+    margin: 10px;}
+
+
+.course-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height: 400%;
+}
+.course-card button {
+    display: block;
+    margin: 10px auto;
+}
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    list-style: none;
+  margin-right: 60%;
+
+}
+.course-status li {
+    flex: 1;
+    text-align: center;
+}
+.course-card .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:100px;
+
+}
+.course-card .icon-text i {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.course-wrapper{
+
+color: rgb(20, 20, 20);
+background-color: rgb(45, 42, 48);
+border-radius: 11px;
+
+
+}
+.course-status li{
+color: #888585;
+padding-top: 10px;
+
+
+}
+
+.pro-1{
+margin-left: 95%;
+color: rgb(33, 142, 185);
+}
